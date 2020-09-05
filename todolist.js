@@ -170,6 +170,10 @@
             e.target.parentNode.children[1].value=''
             patch(gett('.con'),mapList())
         }
+        function hehe(){
+          console.log(1)
+        }
+        hehe()
         // 获取元素封装
         function gett(i){
             return document.querySelector(i)
